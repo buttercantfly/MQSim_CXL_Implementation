@@ -1,0 +1,5 @@
+郎 E:\Prefetcher Yes\stride_p_16x16\latency_result.txt 计 1000 ゑㄒ: 91.39%
+郎 E:\Prefetcher Yes\stride_p_1x16\latency_result.txt 计 1000 ゑㄒ: 88.06%
+郎 E:\Prefetcher Yes\stride_p_4x16\latency_result.txt 计 1000 ゑㄒ: 88.56%
+郎 E:\Prefetcher Yes\stride_p_4x4\latency_result.txt 计 1000 ゑㄒ: 87.94%
+郎 E:\Prefetcher Yes\stride_p_4x64\latency_result.txt 计 1000 ゑㄒ: 97.99%

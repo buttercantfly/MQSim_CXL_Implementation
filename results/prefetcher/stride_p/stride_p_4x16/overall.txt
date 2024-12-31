@@ -1,0 +1,13 @@
+Cache Hit Count: 17664603   Prefetch amount: 854414
+Hit under miss count: 1165499
+Flash Read Count: 544590
+Prefetch Flash Read Count: 854414
+Total Flash Read Count: 1399004
+Flush count: 0
+Eviction count: 0
+Request ends at timestamp: 3.12166 s
+Repeated flash access count: 0
+Prefetch Coverage: 0.544233
+Prefetch Accuracy: 0.967422
+Prefetch Lateness: 0.756501
+Prefetch Pollution: 0

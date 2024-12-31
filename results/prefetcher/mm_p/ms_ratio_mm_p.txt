@@ -1,0 +1,5 @@
+郎 E:\Prefetcher Yes\mm_p\mm_p_16x16\latency_result.txt 计 1000 ゑㄒ: 93.73%
+郎 E:\Prefetcher Yes\mm_p\mm_p_1x16\latency_result.txt 计 1000 ゑㄒ: 75.69%
+郎 E:\Prefetcher Yes\mm_p\mm_p_4x16\latency_result.txt 计 1000 ゑㄒ: 91.92%
+郎 E:\Prefetcher Yes\mm_p\mm_p_4x4\latency_result.txt 计 1000 ゑㄒ: 70.38%
+郎 E:\Prefetcher Yes\mm_p\mm_p_4x64\latency_result.txt 计 1000 ゑㄒ: 87.40%
