@@ -12,7 +12,7 @@ MQSim CXL Github網址：https://github.com/spypaul/MQSim_CXL
 
 Repository 中 data_process 為完成模擬後的數據處理腳本，results 為不包含 latency files 的所有實驗的結果，並於 plots 子資料夾中有實驗結果整理，更為詳細的專案報告請參考 CXL Design Tool Experiment Presentation Group 2 pdf 檔。
 
-須注意實驗過程中不能全依照原論文之 readme 進行，建立 trace generator 皆需要多一些額外操作，可參考 https://hackmd.io/@buttercantfly/Hyk2qy1S1x。
+須注意實驗過程中不能全依照原論文之 readme 進行，建立 trace generator 皆需要多一些額外操作，可參考 https://hackmd.io/@buttercantfly/Hyk2qy1S1x
 
 此外，我所建立的數據處理腳本的功能入下：
 1. calculate_avg_latency.py + utils.py: 可根據輸入的 Result 目錄路徑來複製模擬結果，並且根據 configuration 設定管理資料，同時計算 latency_result.txt (or latency_results_nocache.txt)內的平均值
