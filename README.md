@@ -18,4 +18,5 @@ Repository 中 data_process 為完成模擬後的數據處理腳本，results �
 1. calculate_avg_latency.py + utils.py: 可根據輸入的 Result 目錄路徑來複製模擬結果，並且根據 configuration 設定管理資料，同時計算 latency_result.txt (or latency_results_nocache.txt)內的平均值
 2. ms_ratio.py: 可自動將目錄內的所有 latency_result.txt 檔案資料抓出，並計算其 ms ratio (延遲低於1ms的 access ratio)儲存在 ms_ratio.txt 中，在實驗中我們手動將其內的資料轉到 excel 檔案內作圖
 3. latency_result.py: 與 ms_ratio.py 類似，不過是計算結果的 average latency ，並同樣需要手動將資料轉到 excel 內作圖
+
 須注意腳本功能皆較為陽春，在使用上需注意路徑的修改。
