@@ -1,9 +1,48 @@
+## MQSim_CXL_Implementation
+
+This project serves as the final report for the Emerging Memory course (NCU 113-1) at National Central University. The primary objective of this project is to replicate the experiments described in the MQSim_CXL research paper.
+
+### Background Technology
+
+The main experimental tools utilized in this study are part of the CXL-flash Design Tools suite, comprising two primary components: the Trace Generator and MQSim CXL. The Trace Generator captures both virtual and physical addresses accessed by the program, while MQSim CXL conducts simulations based on the parameters configured and the trace files produced by the Trace Generator.
+
+The MQSim CXL tool can be accessed via its GitHub repository at: https://github.com/spypaul/MQSim_CXL
+
+### Implementation
+
+The project encompasses the following activities:
+- Implementation of the Trace Generator and MQSim CXL.
+- Reproduction of selected experiments outlined in the original paper.
+- Exploratory experiments examining the characteristics of CXL Memory.
+
+Within the repository, the `data_process` directory contains scripts utilized for post-simulation data processing. The `results` directory contains all experimental outcomes, excluding the latency files, with summarized experimental data available within the `plots` subdirectory. For an in-depth report, please refer to the PDF file titled "CXL Design Tool Experiment Presentation Group 2."
+
+It is important to note that the experiments cannot be entirely replicated using the instructions provided in the original paper's readme file. Additional steps are required to set up the Trace Generator, details of which can be referenced at: https://hackmd.io/@buttercantfly/Hyk2qy1S1x
+
+Furthermore, the developed data-processing scripts include the following functionalities:
+
+- `calculate_avg_latency.py` along with `utils.py`: These scripts facilitate copying simulation results based on the provided result directory paths, organizing data according to configuration settings, and calculating the average latency values found in `latency_result.txt` (or `latency_results_nocache.txt`).
+- `ms_ratio.py`: This script automatically extracts data from all `latency_result.txt` files within a directory, computes the ms ratio (the ratio of accesses with latency under 1ms), and stores the results in `ms_ratio.txt`. For visualization purposes, the data must be manually transferred to Excel.
+- `latency_result.py`: Similar to `ms_ratio.py`, this script computes the average latency of simulation results, with results also requiring manual transfer to Excel for visualization.
+
+Please be aware that these scripts are relatively simple, and modifications to file paths are required when used.
+
+Lastly, the files contained in the `results` directory are not complete "Result" files, as the latency data (`latency_result.txt`) has not been uploaded due to its considerable size. However, summary data and other simulation results can be accessed in corresponding subdirectories and within the `overall.txt` file.
+
+---
+
+## MQSim_CXL_Implementation
+
 此專案為國立中央大學 NCU 113-1 新興記憶體課程期末報告，主要在重現 MQSim_CXL 論文中的實驗。
+
+### 背景技術
 
 本實驗主要使用的 CXL-flash Design Tools 包含兩個主要工具：
 Trace generator 與 MQSim CXL，Trace generator 可追蹤程式的虛擬與實體地址，MQSim CXL 則是能依照設置參數與 trace genertaor 所產生的 trace 檔案進行模擬。
 
 MQSim CXL Github網址：https://github.com/spypaul/MQSim_CXL
+
+### 實驗實作
 
 整體實驗內容包含：
 1. 實作 Trace Generator 與 MQSim CXL
